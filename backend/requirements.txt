@@ -1,0 +1,10 @@
+flask
+langchain
+tidb-vector
+langchain-core
+langchain-community
+pymysql
+langchain-google-genai
+pandas
+python-dotenv
+markdownify

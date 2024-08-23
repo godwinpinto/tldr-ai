@@ -1,0 +1,21 @@
+{
+  "name": "TLDR",
+  "version": "1.0.1",
+  "description": "TLDR provides a smart GenAI based Q&A for your secured web pages",
+  "action": {
+    "default_title": "TLDR"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": ["http://*/*", "https://*/*"],
+  "icons": {
+    "48": "images/icon-48.png",
+    "128": "images/icon-128.png"
+  },
+  "manifest_version": 3,
+  "permissions": ["sidePanel", "tabs","scripting","activeTab","clipboardRead","clipboardWrite","storage"],
+  "side_panel": {
+    "default_path": "index.html"
+  }
+}
