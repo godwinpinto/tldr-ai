@@ -19,7 +19,8 @@ Blog Post: [Devpost](https://devpost.com/software/plan-it-xrncmp)
 ## Tech Stack
 - TiDB Serverless (with Vector feature)
 - React Typescript
-- Python Flask
+- Python3
+- Flask
 
 ## Pre-requisite
 1. TiDB Serverless database credentials
@@ -40,11 +41,11 @@ Add the env file in **backend/.env** and **frontend/.env**. Examples keys are pr
 git clone https://github.com/godwinpinto/tldr-ai.git
 cd tldr-ai
 cd backend
-
+#Execute scripts.sql in your TiDB instance
 python3 -m venv venv  # on Windows, use "python -m venv venv" instead
 . venv/bin/activate   # on Windows, use "venv\Scripts\activate" instead
 pip install -r requirements.txt
-flask run
+flask --app tldr-api run
 
 # To build extension
 cd ../frontend
