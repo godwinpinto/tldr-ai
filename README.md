@@ -13,8 +13,8 @@ While Chat-GPT usage is on the rise. The risk of people trying to upload content
 
 ## Demo & Video
 Demo Link: You need to install the chrome extension
-Video Link: [Youtube](https://youtu.be/RcvJFfo7D8I)
-Blog Post: [Devpost](https://devpost.com/software/plan-it-xrncmp)
+Video Link: [Youtube](https://youtu.be/vv7Rh1vhAS4)
+Blog Post: [Devpost](https://devpost.com/software/tldr-ai)
 
 ## Tech Stack
 - TiDB Serverless (with Vector feature)
